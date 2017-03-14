@@ -1,0 +1,177 @@
+.editor {
+  padding-left: 0;
+  height: 100vh;
+}
+
+.editor-files {
+  position: relative;
+  height: 100%;
+  padding-top: 50px;
+  border-right: 4px solid #888888;
+}
+
+.editor-field {
+  
+}
+
+.editor-output {
+  position: relative;
+  overflow: hidden;
+  padding-top: 280px;
+  height: 100%;
+}
+
+.mainform {
+  
+}
+
+.file-heading {
+  margin: 0;
+  padding: 20px 15px 0;
+  font-weight: 500;
+  color: #999;
+  font-size: 18px;
+}
+
+.file-list {
+  
+}
+
+.file-link {
+  
+}
+
+.file-link:hover {
+  background: #eee;
+  text-decoration: none;
+}
+
+.active {
+  background: #d9edf7;
+}
+
+.file-control {
+  position: absolute;
+  bottom: 0;
+}
+
+.file {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.file:hover {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#ace-editor {
+  position: absolute;
+  top: 54px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 15px;
+  height: 33%;
+  border-bottom: 4px solid #888888;
+  z-index: 1;
+}
+
+.hex-editor {
+  padding-top: 50px;
+  border-left: 4px solid #888888;
+  height: 100%;
+}
+
+.run-btn {
+  margin: 0 5px;
+}
+
+.save-btn {
+  margin: 0 5px;
+}
+
+.create-btn {
+  margin: 5px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.remove-btn {
+  margin: 5px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.file-control .btn-group {
+  margin: 0 15px;
+}
+
+.debug-buttons {
+  margin: 10px 0 0 40px;
+}
+
+.debug-btn {
+  
+}
+
+.debug-text {
+  margin: 10px 20px;
+}
+
+.output-text {
+  margin: 0 20px;
+}
+
+.input-text {
+  margin: 0 20px;
+}
+
+.input-text-row {
+  margin: 0;
+}
+
+.viewer {
+  border: 1px solid #888888;
+  min-height: 30px;
+}
+
+.sourse-view {
+  margin: 0 20px;
+}
+
+.output-view {
+  margin: 0 20px;
+}
+
+.memory-view {
+  margin: 0 20px;
+}
+
+.memory-number {
+  padding-top: 20px;
+}
+
+#offsetcol {
+  padding: 5px 0 0 10px;
+  font-size: 16px;
+  color: darkslategrey;
+}
+
+.column-number {
+  
+}
+
+#column-number {
+  padding: 5px;
+  font-size: 16px;
+  color: darkslategrey;
+}
+
+#hexcol {
+  font-weight: bolder;
+  color: darkslategrey;
+}
